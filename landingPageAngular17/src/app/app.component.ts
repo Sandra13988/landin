@@ -13,6 +13,6 @@ export class AppComponent {
   menuOption: string = ''
 
   onOption(menuOption:string){
-    
+    this.menuOption = menuOption
   }
 }
